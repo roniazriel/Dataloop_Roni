@@ -1,6 +1,10 @@
 import requests
 import time
 
+"""A simple client that watches the game by repeatedly sending GET requests to the "/ping" endpoint of the game 
+server. It prints the "pong" messages received from the server and allows the user to exit the loop by pressing 
+Ctrl+C. """
+
 # Define the base URL for the Pong game server
 BASE_URL = "http://localhost:8000"
 
